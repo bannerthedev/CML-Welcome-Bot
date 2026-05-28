@@ -33,7 +33,7 @@ async def on_member_join(member: discord.Member):
         return
 
     msg = await channel.send(
-        f"Welcome {member.mention} to **GTE**! *Please Read The Server Rules*"
+        f"Welcome {member.mention} to **CML**! *Please Read The Server Rules*"
     )
 
     emoji = get_gte_emoji(member.guild)
@@ -50,7 +50,7 @@ async def on_member_remove(member: discord.Member):
         return
 
     msg = await channel.send(
-        f"{member.mention} has left **GTE**"
+        f"{member.mention} has left **CML**"
     )
 
     emoji = get_gte_emoji(member.guild)
